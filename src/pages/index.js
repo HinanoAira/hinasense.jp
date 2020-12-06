@@ -14,11 +14,11 @@ export default ({ data }) => {
       <SEO title="Home" />
       <Container className="text-center pt-5 mt-5" fluid>
         <Image
-          width="150"
-          height="150"
+          width="496"
+          height="279"
           fluid
-          src={dark ? `../../icons/darth-vader.png` : `../../icons/r2-d2.png`}
-          alt={dark ? "Darth Vader" : "R2-D2"}
+          src="../../image/logo.png"
+          alt="HinaSense"
         />
         {unemployed && (
           <p className="mt-2">
@@ -45,7 +45,7 @@ export default ({ data }) => {
         <hr className="my-3 w-25" />
         <div className="d-md-inline-flex icons-container">
           <a
-            href="https://www.github.com"
+            href="https://github.com/HinanoAira"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -56,40 +56,18 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://twitter.com/VRHinano"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon
-              icon={["fab", "linkedin"]}
-              className="icons linkedin"
-              title="LinkedIn"
+              icon={["fab", "twitter"]}
+              className="icons twitter"
+              title="Twitter"
             />
           </a>
           <a
-            href="https://www.freecodecamp.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "free-code-camp"]}
-              className="icons fcc"
-              title="FreeCodeCamp"
-            />
-          </a>
-          <a
-            href="https://www.hackerrank.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "hackerrank"]}
-              className="icons hr"
-              title="Hackerrank"
-            />
-          </a>
-          <a
-            href="mailto:johndoe@gmail.com"
+            href="mailto:aira@hinasense.jp"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -97,13 +75,6 @@ export default ({ data }) => {
               icon={["fas", "envelope"]}
               className="icons mail"
               title="e-mail"
-            />
-          </a>
-          <a href="../../resume.pdf" target="_blank" download>
-            <FontAwesomeIcon
-              icon={["fas", "file-alt"]}
-              className="icons file"
-              title="Resume"
             />
           </a>
         </div>
