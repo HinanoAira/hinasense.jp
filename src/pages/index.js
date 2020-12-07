@@ -78,8 +78,8 @@ export default ({ data }) => {
             />
           </a>
         </div>
-        <div>
-          <script type="text/javascript" src="https://minmoji.ucda.jp/sealjs/https%3A__www.hinasense.jp" charset="UTF-8"></script>
+        <div class="minmojilogo">
+        <a href="https://minmoji.ucda.jp/" target="_blank"><img src="https://minmoji.ucda.jp/seal/https%3A__www.hinasense.jp" alt="みんなの文字" width="120" height="70" /></a>
         </div>
       </Container>
     </PageLayout>

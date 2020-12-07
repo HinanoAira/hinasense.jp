@@ -18,7 +18,6 @@ export default () => {
           src="../../icons/Aira.png"
           alt="Aira"
         />
-        <script type="text/javascript" src="https://minmoji.ucda.jp/sealjs/https%3A__www.hinasense.jp" charset="UTF-8"></script>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse
