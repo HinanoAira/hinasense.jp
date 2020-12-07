@@ -77,9 +77,9 @@ export default ({ data }) => {
               title="e-mail"
             />
           </a>
-        </div>
-        <div class="minmojilogo">
-        <a href="https://minmoji.ucda.jp/" target="_blank"><img src="https://minmoji.ucda.jp/seal/https%3A__www.hinasense.jp" alt="みんなの文字" width="120" height="70" /></a>
+          <a href="https://minmoji.ucda.jp/" target="_blank">
+            <img src="https://minmoji.ucda.jp/seal/https%3A__www.hinasense.jp" alt="みんなの文字" width="120" height="70" />
+          </a>
         </div>
       </Container>
     </PageLayout>
