@@ -12,7 +12,14 @@ export default ({ data }) => {
   return (
     <PageLayout>
       <SEO title="Home" />
-      <Container className="text-center pt-5 mt-5" fluid>
+      <Container className="text-center pt-1 mt-1" fluid>
+        <div className="d-none d-md-block pt-4 mt-4"></div>
+        {unemployed && (
+          <p className="mt-2">
+            <b>ねこになりたいおとしごろ(=^・・^=)</b>
+          </p>
+        )}
+        <Container className="py-0 my-0">
         <Image
           width="496"
           height="279"
@@ -20,27 +27,9 @@ export default ({ data }) => {
           src="../../image/logo.png"
           alt="HinaSense"
         />
-        {unemployed && (
-          <p className="mt-2">
-            <b>ねこになりたいおとしごろ(=^・・^=)</b>
-          </p>
-        )}
-        <Container className="py-0 my-0">
-          <h1
-            style={{
-              fontSize: "5rem",
-              color: "black",
-            }}
-          >
-            <span className="last-name">{lastName}</span>&nbsp;
-            <span className="first-name">{firstName}</span>
-          </h1>
-          <p>
-            <i>
-              {occupation} &nbsp;
-              {dark ? `今日も楽しい夢を見る` : `今日も夢を追いかける`}
-            </i>
-          </p>
+          <p>{occupation} &nbsp;</p>
+          <p>{dark ? `今日も楽しい夢を見る` : `今日も夢を追いかける`}</p>
+          
         </Container>
         <hr className="my-3 w-25" />
         <div className="d-md-inline-flex icons-container">
@@ -77,6 +66,8 @@ export default ({ data }) => {
               title="e-mail"
             />
           </a>
+        </div>
+        <div className="pt-3">
           <a href="https://minmoji.ucda.jp/" target="_blank">
             <img src="https://minmoji.ucda.jp/seal/https%3A__www.hinasense.jp" alt="みんなの文字" width="120" height="70" />
           </a>

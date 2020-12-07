@@ -21,6 +21,7 @@ $themes: (
     hrefColor: $dark-blue,
     github: $black,
     linkedin: $linkedin-blue,
+    twitter: $twitter-blue,
     fcc: $fcc-green,
     hr: $hr-green,
     mail: $yellow,
@@ -43,6 +44,7 @@ $themes: (
     heartColor: red,
     github: $empire-red,
     linkedin: $empire-red,
+    twitter: $empire-red,
     fcc: $empire-red,
     hr: $empire-red,
     mail: $empire-red,
@@ -112,6 +114,7 @@ $themes: (
 .footer {
   @include themify($themes) {
     background: themed("backgroundColor");
+    min-height: 30px;
   }
 }
 
@@ -178,7 +181,7 @@ $themes: (
       color: themed("file");
     }
     &.twitter {
-      color: #00acee
+      color: themed("twitter");
     }
   }
 }
@@ -204,3 +207,4 @@ p {
     color: themed("textColor");
   }
 }
+

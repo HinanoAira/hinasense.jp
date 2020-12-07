@@ -14,7 +14,6 @@ body {
   margin: 0;
   font-family: minmoji;
   font-display: swap;
-  height: 100%;
   width: 100%;
   // font-size: calc(16px * ((80vw - 700px) / (1600 - 400)));
   // line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
@@ -23,6 +22,11 @@ body {
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+
+.maincontent {
+  min-height: calc(100vh - 58px - 20px);
 }
 
 .app-container * {
