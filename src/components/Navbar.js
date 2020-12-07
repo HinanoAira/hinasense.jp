@@ -5,7 +5,6 @@ import { Link } from "gatsby"
 import "./Fontawesome.js"
 
 import { Container, Image } from "react-bootstrap"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default () => {
   const { dark, toggleDark, toString } = useContext(ThemeContext)
@@ -19,6 +18,7 @@ export default () => {
           src="../../icons/Aira.png"
           alt="Aira"
         />
+        <script type="text/javascript" src="https://minmoji.ucda.jp/sealjs/https%3A__www.hinasense.jp" charset="UTF-8"></script>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse

@@ -2,10 +2,17 @@
 
 @import "themes";
 
+@font-face {
+  font-family: minmoji;
+  src: url('https://minmoji.ucda.jp/fontseot/https%3A__hinasense.jp');
+  src: local('minmoji'),
+      url('https://minmoji.ucda.jp/fontswoff/https%3A__hinasense.jp') format('woff'),
+      url('https://minmoji.ucda.jp/fonts/https%3A__hinasense.jp') format('opentype');
+}
 html,
 body {
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: minmoji;
   font-display: swap;
   height: 100%;
   width: 100%;
@@ -28,7 +35,6 @@ body {
 }
 
 .aurebesh:hover {
-  font-family: "Aurebesh", sans-serif;
   font-display: swap;
 }
 
