@@ -22,7 +22,7 @@ export default ({ data }) => {
         />
         {unemployed && (
           <p className="mt-2">
-            <b> Hey! I am looking for new opportunities :)</b>
+            <b>ねこになりたいおとしごろ(=^・・^=)</b>
           </p>
         )}
         <Container className="py-0 my-0">
@@ -32,13 +32,13 @@ export default ({ data }) => {
               color: "black",
             }}
           >
-            <span className="first-name">{firstName}</span>&nbsp;
-            <span className="last-name">{lastName}</span>
+            <span className="last-name">{lastName}</span>&nbsp;
+            <span className="first-name">{firstName}</span>
           </h1>
           <p>
             <i>
-              {occupation} by day,&nbsp;
-              {dark ? `Imperial enforcer by night` : `Rebel scum by night`}
+              {occupation} &nbsp;
+              {dark ? `今日も楽しい夢を見る` : `今日も夢を追いかける`}
             </i>
           </p>
         </Container>
