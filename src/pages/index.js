@@ -78,6 +78,9 @@ export default ({ data }) => {
             />
           </a>
         </div>
+        <div>
+          <script type="text/javascript" src="https://minmoji.ucda.jp/sealjs/https%3A__www.hinasense.jp" charset="UTF-8"></script>
+        </div>
       </Container>
     </PageLayout>
   )
