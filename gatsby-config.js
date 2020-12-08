@@ -101,5 +101,6 @@ module.exports = {
         showSpinner: true,
       },
     },
+    `gatsby-plugin-sitemap`,
   ],
 }
