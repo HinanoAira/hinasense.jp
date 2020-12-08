@@ -7,7 +7,7 @@ import { Container, Image } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default ({ data }) => {
-  const { unemployed, firstName, lastName, occupation } = data.site.siteMetadata
+  const { unemployed, occupation } = data.site.siteMetadata
   const { dark } = useContext(ThemeContext)
   return (
     <PageLayout>
@@ -68,7 +68,7 @@ export default ({ data }) => {
           </a>
         </div>
         <div className="pt-3">
-          <a href="https://minmoji.ucda.jp/" target="_blank">
+          <a href="https://minmoji.ucda.jp/" target="_blank" rel="noreferrer">
             <img src="https://minmoji.ucda.jp/seal/https%3A__www.hinasense.jp" alt="みんなの文字" width="120" height="70" />
           </a>
         </div>

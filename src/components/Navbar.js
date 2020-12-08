@@ -4,7 +4,7 @@ import { Navbar, Nav, Form } from "react-bootstrap"
 import { Link } from "gatsby"
 import "./Fontawesome.js"
 
-import { Container, Image } from "react-bootstrap"
+import { Image } from "react-bootstrap"
 
 export default () => {
   const { dark, toggleDark, toString } = useContext(ThemeContext)
@@ -28,6 +28,9 @@ export default () => {
           
           <Nav.Link className="ml-2" as={Link} to="/projects" title="Projects">
             Projects
+          </Nav.Link>
+          <Nav.Link className="ml-2" as={Link} to="/gallery" title="Gallery">
+            Gallery
           </Nav.Link>
           
           <Form className="ml-3 my-auto">
