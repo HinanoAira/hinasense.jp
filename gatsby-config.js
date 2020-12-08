@@ -15,7 +15,7 @@ module.exports = {
     occupation: `ソフトウェアエンジニアを目指して`,
     keywords: [`雛野`, `綾桜`, `Personal`, `Blog`, `Resume`, `Projects`, `Work`],
     siteUrl:
-      process.env.URL || process.env.DEPLOY_URL || `http://localhost:8000`,
+      `http://www.hinasense.jp:8000`,
     unemployed: true,
     designations: [
       `Coding Monkey`,
