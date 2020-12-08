@@ -102,5 +102,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
+    `gatsby-theme-gallery`,
   ],
 }

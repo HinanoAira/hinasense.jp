@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "@browniebroke/gatsby-image-gallery": "^4.0.2",
+    "@emotion/react": "^11.1.2",
+    "@emotion/styled": "^11.0.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
     "@fortawesome/free-brands-svg-icons": "^5.13.1",
     "@fortawesome/free-solid-svg-icons": "^5.13.1",
@@ -34,6 +36,7 @@
     "gatsby-plugin-sharp": "^2.6.14",
     "gatsby-plugin-sitemap": "^2.8.0",
     "gatsby-source-filesystem": "^2.3.14",
+    "gatsby-theme-gallery": "^1.0.2",
     "gatsby-transformer-remark": "^2.8.19",
     "gatsby-transformer-sharp": "^2.5.7",
     "howler": "^2.2.0",
