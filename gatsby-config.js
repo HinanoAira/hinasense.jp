@@ -102,6 +102,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
-    `gatsby-theme-gallery`,
+    {
+      resolve: `gatsby-theme-gallery`,
+      options: {
+        basePath: `/gallery/`,
+        galleryPath: `content/gallery`,
+      },
+    },
   ],
 }
