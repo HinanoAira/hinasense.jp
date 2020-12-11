@@ -75,9 +75,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `John Doe's Personal Site`,
-        short_name: `J.Doe`,
-        description: `This is my personal site.`,
+        name: `ひなセンス`,
+        short_name: `HinaSense`,
+        description: `ひなセンスのなにかしら`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
