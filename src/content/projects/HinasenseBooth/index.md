@@ -1,5 +1,6 @@
 ---
 title: "ひなセンス Booth店"
+tags: []
 ---
 
 [Booth](https://islakioriy.booth.pm/)
